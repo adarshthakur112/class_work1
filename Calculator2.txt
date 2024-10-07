@@ -1,0 +1,51 @@
+import java.util.*;
+public class Calculator2{
+	Public static void main(String[] args){
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.print("Please Enter the First value");
+	int a = sc.nextInt();
+	
+	System.out.print("Please Enter the Second Value");
+	int b = sc.nextInt();
+	
+	System.out.println("Choose the operation");
+	System.out.println(1-Add);
+	System.out.println(2-Sub);
+	System.out.println(3-multiply);
+	System.out.println(4-Div);
+	int n = sc.nextInt();
+	
+	if(n==1){
+		System.out.print(add(a,b));
+	}
+	if(n==2){
+		System.out.print(sub(a,b));
+	}
+	
+	if(n==3){
+		System.out.print(multiply(a,b));
+	}
+	
+	if(n==4){
+		System.out.print(div(a,b));
+	}
+	
+	}
+	
+	static int add(int a, int b){
+		return (a+b);
+	
+	}
+	Ststic int sub(int a, int b){
+		return (a-b);
+	}
+	Ststic int multiply(int a, int b){
+		return (a*b);
+	}
+	Ststic int div(int a, int b){
+		return (a/b);
+	}
+	
+	
+}
